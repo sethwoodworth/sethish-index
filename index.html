@@ -15,27 +15,27 @@
 	
 	<style type="text/css">
 		html { overflow-y: scroll; }
-		body { margin-top: 1.5em; }
+		body { background-image: url("https://openhatch.org/static/images/motif-eee.png"); margin-top: 1.5em; }
 		.header h1 { font-size: 3.5em; color: #666; }
 		.expand_collapse_links { text-align: center; margin-bottom: 1.5em; display: none; }
 		.expand_collapse_links a { color: #555; }
 		img { margin-bottom: 10px; }
 		.center { text-align: center; }
-		.text, p { font-size: 1.2em; margin-bottom: 10px; text-align: justify;}
+		.text, p { font-size: 1.2em; margin-bottom: 10px; text-align: justify; vertical-align: baseline;}
 		.intro { color: #444; }
 		ul li { margin-top: 10px; }
 		.section h2 { padding-left: 5px; background-color: #eee; cursor: pointer;}
-    .section h2 a { color: #333; text-decoration:none; display: block; }
+        .section h2 a { color: #333; text-decoration:none; display: block; }
 		.section { padding-bottom: 2px; }
 		.contents { padding: 0 10px; width: 610px; }
 		.args { float:right; }
 		.lang { padding: 3px; font-weight: bold;}
 		.section .lang { font-size: 0.8em; padding: 2px; font-weight: normal;}
-		.work { color: hsl(60,57%,24%); background: hsl(60,57%,83%) }
-		.play { color: hsl(190,57%,24%); background: hsl(190,57%,83%) }
-		.hack { color: hsl(0,57%,24%); background: hsl(0,57%,83%) }
-		.libre { color: hsl(260,57%,24%); background: hsl(260,57%,83%) }
-		.education { color: hsl(60,57%,83%); background: hsl(60,57%,24%)}
+		.work { color: #555555; background: #A8A8D6 }
+		.play { color: #555555; background: #A8D6CD }
+		.hack { color: #555555; background: #BBD6A8 }
+		.libre { color: #555555; background: #D6BBA8 }
+		.edu { color: #555555; background: #D6A8CD }
 		.nowrap { white-space: nowrap; }
 		.sweet { color: #363; background: #beb; }
 		.compare { color: #663; background: #eeb; }
@@ -46,10 +46,10 @@
 		.footer a { color: #440; } 
 		.footer-lang { text-align: center; color: #443; background-color: #dda; padding: 5px; font-size: 90%; }
 		.footer-lang a { color: #330; } 
-    .footer-badges { text-align: center; }
-    .footer-badges a { color: #777; }
+        .footer-badges { text-align: center; }
+        .footer-badges a { color: #777; }
 		.lang a {color: inherit; text-decoration: none;}
-    .note { text-decoration: italic; color: #666; padding: 1em; }
+        .note { text-decoration: italic; color: #666; padding: 1em; }
 	</style>
 	
 </head>
@@ -58,57 +58,55 @@
 	<div class="container">
 
 	    <div class="span-24 header">
-				<table width="100%">
-					<tr><td>
-        		<h1>Seth Woodworth<br/> - Seth(ish)</h1>
-					</td><td align="right">
-						<div id="menu">
-							<span class="lang work">work</span>
-							<span class="lang play">play</span>
-							<span class="lang hack">hack</span>
-							<span class="lang libre">libre</span>
-							<span class="lang education">education</span>
-						</div>
-						<img style="float: right" alt="where &quot;x&quot; is one of" src="images/wherex.gif" />
-					</td></tr>
-					</table>
+            <table width="100%">
+                <tr>
+                <td>
+                    <h1>Seth Woodworth<br/> - Seth(ish)</h1>
+                </td>
+                <td align="right">
+                    <div id="menu">
+                        <span class="lang work">work</span>
+                        <span class="lang play">play</span>
+                        <span class="lang hack">hack</span>
+                        <span class="lang libre">libre</span>
+                        <span class="lang edu">edu</span>
+                    </div>
+                    <img style="float: right" alt="where &quot;x&quot; is one of" src="images/wherex.gif" />
+                </td>
+                </tr>
+            </table>
 	    </div>
 
 	    <div class="span-24">
-					<div class="text intro">
-                        I am a quantitative memeticist and digital freedom adocate.  I am passionate about 
-                        expanding Open Education initiatives used in computer mediated education.  I've been 
-                        employed by and volunteer for the One Laptop per Child project.  My most recent projects
-                        involve opening state government data, and freeing public domain resources for education.
-					</div>
-					
-					<div class="expand_collapse_links">
-					  <a href="#" class="expand_all">Expand all</a> |
-					  <a href="#" class="collapse_all">Collapse all</a>
-					</div>
+            <div class="text intro baseline">
+            Seth is an internet researcher and digital freedom advocate who passionately promotes digital education. 
+            He has done work with the One Laptop per Child project and the Berkman Center for Internet and Society. 
+            His recent projects include opening government data, and applying new technologies for collaboration to Open Educational Resources.
+            </div>
+            
+            <div class="expand_collapse_links">
+              <a href="#" class="expand_all">Expand all</a> |
+              <a href="#" class="collapse_all">Collapse all</a>
+            </div>
 	    </div>
 
 				
 	    <div class="span-24 section">
-				<div class="args">
-					<span class="lang work">work</span>
-					<span class="lang hack">hack</span>
-					<span class="lang libre">libre</span>
-				</div>
+            <div class="args">
+                <span class="lang work">work</span>
+                <span class="lang hack">hack</span>
+                <span class="lang libre">libre</span>
+            </div>
 
-        <h2>
-        <a name="web_ecology" href="#web_ecology">Web Ecology Project</a>
-        </h2>
+            <h2><a name="web_ecology" href="#web_ecology">Web Ecology Project</a></h2>
 				
 				<div class="contents">
+                    <a href="http://www.flickr.com/photos/sethwoodworth/2304487820/" 
+                      title="Missile Silo Tours by isforinsects, on Flickr">
+                    <img style="border: 2px solid black; float:right; margin: 10px;" src="http://www.webecologyproject.org/wp-content/uploads/2009/08/WEP-iran.png" width="216" height="279">
+                    </a>
 
-          <a href="http://www.flickr.com/photos/sethwoodworth/2304487820/" 
-            title="Missile Silo Tours by isforinsects, on Flickr">
-
-          <img style="border: 2px solid black; float:right; margin: 10px;" src="http://www.webecologyproject.org/wp-content/uploads/2009/08/WEP-iran.png" width="216" height="279">
-          </a>
-
-					<div class="text">
+                    <div class="text">
                         The <a href="http://webecologyproject.org">Web Ecology Project</a> is a research 
                         collective based in Cambridge, Massachusetts.  Our agenda is applying quantitative social 
                         science to social media.
@@ -154,7 +152,7 @@
 						<span class="lang work">work</span>
 						<span class="lang hack">hack</span>
 						<span class="lang libre">libre</span>
-						<span class="lang education">education</span>
+						<span class="lang edu">edu</span>
 					</div>
 			
 	        <h2>
@@ -172,10 +170,17 @@
 						<div class="text">
 							I started my involvement with the OLPC project in 2005, trying to get involved 
                             in organizing and manging Open Educational Resourcs. I saw the XO laptop as an 
-                            obvious method for delivering educational content with a permissive license.
+                            obvious method for delivering edual content with a permissive license.
 						</div>
 
-					
+                    <div class="center">
+                        <a href="http://www.flickr.com/photos/sethwoodworth/3530859567/" 
+                             title="Saturday Project: OLPC (XO) and Lilypad by isforinsects, on Flickr">
+                        <img src="http://farm4.static.flickr.com/3396/3530859567_2bf216bccf.jpg"
+                             width="500" height="375" alt="Saturday Project: OLPC (XO) and Lilypad" />
+                        </a>
+                    </div>
+
 				    </div>
 					
 					
@@ -243,6 +248,7 @@
 				</div>
 	      </div>
 	
+          <!--
 		  <div class="span-24 section">
 					<div class="args">
 						<span class="lang play">play</span>
@@ -264,6 +270,7 @@
 						
 					</div>
 	    </div>
+        -->
 
 	    <div class="span-24 section">
 					<div class="args">
@@ -284,10 +291,10 @@
 						</div>
 
                         <div class="center">
-                            <a href="http://www.flickr.com/photos/sethwoodworth/3314253928/" 
-                                title="alxjrvs misses opportunity to name by isforinsects, on Flickr">
-                                <img src="http://farm4.static.flickr.com/3366/3314253928_a42ea3e896.jpg" 
-                                    width="500" height="375" alt="alxjrvs misses opportunity to name" />
+                            <a href="http://www.flickr.com/photos/sethwoodworth/4193300846/" 
+                            title="foodborne pathogens? by isforinsects, on Flickr">
+                            <img src="http://farm5.static.flickr.com/4009/4193300846_363032ebbb_o.jpg" 
+                            width="500" height="332" alt="foodborne pathogens?" />
                             </a>
                         </div>
 						
@@ -298,6 +305,27 @@
 							I just want to make sure that this is /roughly/ the same length of the 
                             previous version of this section.
 						</div>
+	                </div>
+	      </div>
+
+		  <div class="span-24 section">
+		    <div class="args">
+		        <span class="lang play">play</span>
+		    </div>
+			
+	        <h2>
+              <a name="audiobooks" href="#audiobooks">Audiobooks</a>
+	        </h2>
+	
+		    <div class="contents">
+			    <div class="text">
+				    I used to be a professional swordfighter.
+				</div>
+
+				<div class="text">
+                    My IMDB page.
+				</div>
+			</div>
 	    </div>
 
 	
